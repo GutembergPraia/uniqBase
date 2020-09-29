@@ -17,18 +17,6 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      canal: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-      cep: {
-        type: Sequelize.STRING,
-        allowNull: true,
-      },
-      end: {
-        type: Sequelize.STRING,
-        allowNull: true,
-      },
       email: {
         type: Sequelize.STRING,
         allowNull: true,

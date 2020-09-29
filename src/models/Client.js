@@ -1,13 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
 
-class client extends Model{
+class Client extends Model{
     static init(sequelize){
         super.init({
             name: DataTypes.STRING,
             cpf: DataTypes.STRING,
-            canal: DataTypes.INTEGER,
-            cep: DataTypes.STRING,
-            end: DataTypes.STRING,
             email: DataTypes.STRING,
         },{
             sequelize
@@ -15,4 +12,4 @@ class client extends Model{
     }
 }
 
-module.exports = client;
+module.exports = Client;
