@@ -1,6 +1,6 @@
 # uniqBase
-Modelo de aplicação com: 
--nodejs
--sequelize - ORM (Mapeamento objeto-relacional) (gerenciamento BD )(EX 1:n)
--postegres
--nodemon
+Modelo de aplicação com:<br> 
+-nodejs<br> 
+-sequelize - ORM (Mapeamento objeto-relacional) (gerenciamento BD )(EX: 1:n )<br> 
+-postegres<br> 
+-nodemon<br> 
