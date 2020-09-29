@@ -8,7 +8,9 @@ module.exports = {
         const client = await Client.findByPk(client_id, {
           include: { association: 'addresses' }
         });
-    
+        /*
+        * return res.json(client);
+        */
         return res.json(client.addresses);
     },
     async store(req, res) {
